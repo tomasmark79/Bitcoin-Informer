@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.bitcoin-informer" path="/org/gnome/shell/extensions/bitcoin-informer/">
+    <key name="currency" type="s">
+      <default>'USD'</default>
+      <choices><choice value="USD"/><choice value="EUR"/><choice value="CZK"/></choices>
+      <summary>Měna ceny bitcoinu</summary>
+    </key>
+    <key name="refresh-interval" type="i">
+      <default>60</default>
+      <range min="30" max="3600"/>
+      <summary>Interval obnovení v sekundách</summary>
+    </key>
+    <key name="show-decimals" type="b">
+      <default>false</default>
+      <summary>Zobrazit dvě desetinná místa v liště</summary>
+    </key>
+  </schema>
+</schemalist>

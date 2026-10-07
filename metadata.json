@@ -1,0 +1,18 @@
+{
+  "uuid": "bitcoin-informer@digitalspace.name",
+  "name": "Bitcoin Informer",
+  "description": "Shows the current Bitcoin spot price in the top bar, with USD, EUR or CZK, automatic refresh and manual updates. Prices are provided by Coinbase; an internet connection is required.",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50"
+  ],
+  "url": "https://github.com/tomasmark79",
+  "settings-schema": "org.gnome.shell.extensions.bitcoin-informer",
+  "donations": {
+    "paypal": "TomasMark"
+  }
+}
