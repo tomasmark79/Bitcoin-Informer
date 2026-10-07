@@ -88,10 +88,11 @@ Shell has not been verified; a successful build alone does not confirm it.
 
 During a network failure, the last known price remains marked with ⚠ and the
 extension retries on its normal schedule. Start a fresh GNOME session if an
-installed code change does not appear.
+installed code change does not appear. Report problems in the
+[issue tracker](https://github.com/tomasmark79/Bitcoin-Informer/issues).
 
 ## License
 
 [GPL-3.0-or-later](LICENSE). Author: Tomáš Mark.
 
-[Author on GitHub](https://github.com/tomasmark79) · [Donate via PayPal](https://paypal.me/TomasMark)
+[GitHub](https://github.com/tomasmark79/Bitcoin-Informer) · [Donate via PayPal](https://paypal.me/TomasMark)
